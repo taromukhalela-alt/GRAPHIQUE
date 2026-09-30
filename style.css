@@ -210,8 +210,8 @@ html {
 
 /* Active section, set by the scroll-spy in index.js */
 .nav-container .btn-12[aria-current="true"] {
-  transform: translateY(-2px) rotate(-1.5deg);
-  box-shadow: 0 5px 0 var(--green);
+  transform: translateY(-2px);
+  border-color: var(--green);
 }
 
 .navbar :focus-visible {
@@ -1225,7 +1225,7 @@ html {
   grid-row: 1 / span 8;
 }
 
-.main {
+.main-identity {
   padding: clamp(1.5rem, 4vw, 4rem);
   display: flex;
   flex-direction: column;
