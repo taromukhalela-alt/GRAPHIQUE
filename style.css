@@ -1226,6 +1226,7 @@ html {
 }
 
 .main-identity {
+.main-identity {
   padding: clamp(1.5rem, 4vw, 4rem);
   display: flex;
   flex-direction: column;
@@ -2591,7 +2592,7 @@ html {
    TV BASE
    ========================================================= */
 
-.bottom {
+.bottom-tv {
     position: relative;
 
     width: 75%;
